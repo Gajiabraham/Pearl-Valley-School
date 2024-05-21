@@ -362,6 +362,7 @@ h6,
     height: 250px;
     bottom: 0;
     right: 0;
+    left: 100;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -518,4 +519,9 @@ h6,
         width: 150px;
         /* Reduce the button width on screens smaller than 768px */
     }
+}
+
+/*------cards------*/
+.response-cards .row {
+    --bs-gutter-x: 148px;
 }
