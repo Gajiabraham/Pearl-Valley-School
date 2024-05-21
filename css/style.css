@@ -501,3 +501,21 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+/*-------Result checker------*/
+.btn-result {
+    border: 8px solid #fff;
+    background: #fff;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+    width: 282px;
+    height: 61px;
+    flex-shrink: 0;
+
+}
+
+@media (max-width: 768px) {
+    .btn-result {
+        width: 150px;
+        /* Reduce the button width on screens smaller than 768px */
+    }
+}
