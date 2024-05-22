@@ -516,7 +516,7 @@ h6,
 
 @media (max-width: 768px) {
     .btn-result {
-        width: 150px;
+        width: 100px;
         /* Reduce the button width on screens smaller than 768px */
     }
 }
